@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React.js sentence game</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="robots" content="noindex, nofollow">	
+  </head>
+  <body>
+
+    <div id="center">
+    </div>
+    
+    <!-- Load React (and Babel for JSX use)-->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" ></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    <!-- Load Redux (and immer for immutability in reducers) -->
+    <script src="https://unpkg.com/redux/dist/redux.js"></script>
+    <script src="https://unpkg.com/react-redux@latest/dist/react-redux.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/immer/dist/immer.umd.js"></script>
+
+    
+    <!-- Load custom scripts -->
+    <script data-plugins="transform-es2015-modules-umd" type="text/babel" src="scripts/game_script.js"></script>
+
+    
+  </body>
+</html>
